@@ -32,8 +32,8 @@ Command: git commit -m "first commit"
 
 **git push -u origin main**
 <br/>*Meaning: Publish your local code changes to a remote repository, specifically the main branch*
-
-
+<br/>
+<br/>
 
 ## Visual Representation
 
