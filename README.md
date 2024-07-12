@@ -5,7 +5,7 @@ Website:https://github.com/ <br/>
 ## Section 1: Creating a repository on Github
 
 ## Picture of steps Github provides to users when creating a new repository.
-![alt text](https://d186loudes4jlv.cloudfront.net/git/images/github_new_repo3.png) 
+![alt text](https://cdn-media-1.freecodecamp.org/images/cxRrZUe-tW2Wkn0WUg-MsN1m1WesvGPlJT7V) 
 
 **Command: echo "# NAME_OF_YOUR_REPO" >> README.md** <br/>
 *Meaning: Copies text "NAME_OF_YOUR_REPO" into the README.md file*  <br/>  <br/>
