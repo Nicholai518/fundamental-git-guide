@@ -53,17 +53,17 @@ Command: git commit -m "first commit"
 
 ## Status
 
-##Show the status of working directory & Staging area
+### Show the status of working directory & Staging area
 **Command: git status**
 
-##Show the status of working directory & Staging area with short description
+### Show the status of working directory & Staging area with short description
 **Command: git status -s**
 <br/>*Note: -s is the “short status” flag*
 
 
 ## Viewing Changes
 
-##View Staged and Unstaged changes
+### View Staged and Unstaged changes
 **Command: git diff FILE_NAME**
 <br/>*Note: View changes for a single file*
 <br/>*Ex: git diff Main.java* 
