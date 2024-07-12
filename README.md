@@ -6,7 +6,7 @@ A git guide which contains fundamental commands for creating, updating and maint
 ## Creating a repository on Github
 
 **Command: echo "# NAME_OF_YOUR_REPO" >> README.md** 
-<br/>*Meaning: Copies text into the README.md file*
+<br/>*Meaning: Copies text "NAME_OF_YOUR_REPO" into the README.md file*
 
 
 **Command: git init**
