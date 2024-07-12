@@ -14,11 +14,13 @@ A git guide which contains fundamental commands for creating, updating and maint
 
 
 **Command: git add README.md** <br/>
-*Meaning: Adds a change in the working directory to the staging area. In this case, specifically add the README.md file to the “staging area”.*
+*Meaning: Adds a change in the working directory to the staging area. In this case, specifically add the README.md file to the “staging area”.* <br/> 
+*You can repeat this command with different files such as “git add Main.java”* <br/> 
+*You can also add all files to the staging area using: **git add .***
 
 
 Command: git commit -m "first commit" 
-<br/>Meaning: Record a change you’ve made to a file and then store that change in the repository. Commits are referred to as “Snapshots” of your tracked files.. 
+<br/>Meaning: Record a change you’ve made to a file and then store that change in the repository. Commits are referred to as “Snapshots” of your tracked files.
 
 
 **Command: git branch -M main** 
