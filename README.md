@@ -36,7 +36,7 @@ Command: git commit -m "first commit"
 <br/>
 
 ## Creating Repository image to reference
-<a href="https://d186loudes4jlv.cloudfront.net/git/images/github_new_repo3.png"><img src="http://url.to/image.png" align="left" height="48" width="48" ></a>
+![alt text](https://d186loudes4jlv.cloudfront.net/git/images/github_new_repo3.png)
 
 ## Local / Remote Repository Visual Representation
 ![alt text](https://media.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvpxeexqyfvf4hw3zxtbn.png)
