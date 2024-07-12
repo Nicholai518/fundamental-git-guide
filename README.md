@@ -41,3 +41,12 @@ Command: git commit -m "first commit"
 ## Local / Remote Repository Visual Representation
 ![alt text](https://media.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvpxeexqyfvf4hw3zxtbn.png)
 
+
+## How to clone a repository from Github
+
+**Command: git clone https://github.com/YOUR_ACCOUNT/YOUR_REPO_HERE.git**
+<br/>*Meaning: Make a clone or copy of that repo at in a new directory, at another location.*
+<br/>*Note: Navigate to the desired directory on your computer before cloning repository*
+<br/>*Ex: C:\Dev\Java*
+
+
