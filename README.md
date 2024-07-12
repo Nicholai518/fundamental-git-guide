@@ -56,7 +56,7 @@ Command: git commit -m "first commit"
 ##Show the status of working directory & Staging area
 **Command: git status**
 
-###Show the status of working directory & Staging area with short description
+##Show the status of working directory & Staging area with short description
 **Command: git status -s**
 <br/>*Note: -s is the “short status” flag*
 
