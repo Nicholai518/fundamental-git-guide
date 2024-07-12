@@ -27,7 +27,7 @@ Command: git commit -m "first commit"
 <br/>*Meaning: Renames the master branch to main*
 
 
-**Command: git remote add origin https://github.com/YOUR_REPO_HERE.git**
+**Command: git remote add origin https://github.com/YOUR_ACCOUNT/YOUR_REPO_HERE.git**
 <br/>*Meaning: adds a reference to the remote server in your local project*
 
 **git push -u origin main**
@@ -35,7 +35,7 @@ Command: git commit -m "first commit"
 <br/>
 <br/>
 
-## Creating Repository steps Visualization
+## Creating Repository image to reference
 ![alt text](https://d186loudes4jlv.cloudfront.net/git/images/github_new_repo3.png)
 
 ## Local / Remote Repository Visual Representation
