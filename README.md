@@ -14,7 +14,7 @@ A git guide which contains fundamental commands for creating, updating and maint
 
 
 **Command: git add README.md** <br/>
-*Meaning: Adds a change in the working directory to the staging area. In this case, specifically add the README.md file to the “staging area”. *
+*Meaning: Adds a change in the working directory to the staging area. In this case, specifically add the README.md file to the “staging area”.*
 
 
 Command: git commit -m "first commit" 
