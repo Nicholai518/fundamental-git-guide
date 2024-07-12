@@ -32,3 +32,10 @@ Command: git commit -m "first commit"
 
 **git push -u origin main**
 <br/>*Meaning: Publish your local code changes to a remote repository, specifically the main branch*
+
+
+
+## Visual Representation
+
+![alt text](https://media.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvpxeexqyfvf4hw3zxtbn.png)
+
