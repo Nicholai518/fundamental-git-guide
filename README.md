@@ -37,8 +37,6 @@ Command: git commit -m "first commit"
 
 ## Creating Repository image to reference
 ![alt text](https://d186loudes4jlv.cloudfront.net/git/images/github_new_repo3.png)
-<img src="[https://github.com/favicon.ico](https://d186loudes4jlv.cloudfront.net/git/images/github_new_repo3.png)" width="48">
-
 
 
 ## Local / Remote Repository Visual Representation
@@ -48,8 +46,11 @@ Command: git commit -m "first commit"
 ## How to clone a repository from Github
 
 **Command: git clone https://github.com/YOUR_ACCOUNT/YOUR_REPO_HERE.git**
-<br/>*Meaning: Make a clone or copy of that repo at in a new directory, at another location.*
+<br/>*Meaning: Make a clone or copy of that repo at in a new directory, or at another location.*
 <br/>*Note: Navigate to the desired directory on your computer before cloning repository*
 <br/>*Ex: C:\Dev\Java*
+
+
+
 
 
