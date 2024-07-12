@@ -13,10 +13,10 @@ A git guide which contains fundamental commands for creating, updating and maint
 <br/>*Meaning: Creates a new git repository. You can begin to start tracking different versions of your project!*
 
 
-**Command: git add README.md**
-* <br/> Meaning: Adds a change in the working directory to the staging area. In this case, specifically add the README.md file to the “staging area”. *
-<br/> *You can repeat this command with different files such as “git add Main.java” *
-<br/> *You can also add all files to the staging area using: **git add .** *
+**Command: git add README.md** <br/>
+*Meaning: Adds a change in the working directory to the staging area. In this case, specifically add the README.md file to the “staging area”. * <br/> 
+*You can repeat this command with different files such as “git add Main.java” * <br/> 
+*You can also add all files to the staging area using: **git add .** *
 
 
 Command: git commit -m "first commit" 
