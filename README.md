@@ -1,6 +1,6 @@
 # fundamental-git-guide
 A git guide which contains fundamental commands for creating, updating and maintaining git repositories. <br/>
-Website:https://github.com/ <br/>
+Website: https://github.com/ <br/>
 
 ## Section 1: Creating a repository on Github
 
@@ -40,48 +40,48 @@ Website:https://github.com/ <br/>
 **Command: git clone https://github.com/YOUR_ACCOUNT/YOUR_REPO_HERE.git** <br/> 
 *Explanation:  Make a clone or copy of that repo at in a new directory, or at another location.* <br/> 
 *Note: Navigate to the desired directory on your computer before cloning repository* <br/> 
-*Ex: C:\Dev\Java*
+*Ex: C:\Dev\Java*  <br/>  <br/>
 
 ## Picture for reference
 ![alt text](https://docs.github.com/assets/cb-60499/images/help/repository/https-url-clone-cli.png)
-
-**Steps to clone a repository**
-- Go to the Github repository you wish to clone
-- Click on "Code"
-- Copy and paste the HTTPS Web URL
-- Open up Git on your compute
-- Navigate to the desired directory
-- Use this command to clone the repository: **git clone WEB_URL_GOES_HERE**
+ <br/>  <br/>
+**Steps to clone a repository**  <br/>
+- Go to the Github repository you wish to clone  <br/>
+- Click on "Code"  <br/>
+- Copy and paste the HTTPS Web URL  <br/>
+- Open up Git on your compute  <br/>
+- Navigate to the desired directory  <br/>
+- Use this command to clone the repository: **git clone WEB_URL_GOES_HERE**  <br/>  <br/>
 
 ## Section 3: How to create a .gitignore file
 
 **Command: echo > .gitignore** <br/> 
 Or <br/> 
 **Command: touch .gitignore** <br/> 
-*Explanation: Creates an empty .gitignore file* <br/> 
+*Explanation: Creates an empty .gitignore file* <br/>  <br/>
 
 *Question: What is a .gitignore file?* <br/> 
-**Answer: Specifies intentionally untracked files that Git should ignore.**  <br/> 
+**Answer: Specifies intentionally untracked files that Git should ignore.**  <br/>  <br/>
 
 *More information about .gitignore files can be found here* <br/> 
-https://git-scm.com/docs/gitignore <br/> 
+https://git-scm.com/docs/gitignore <br/>  <br/>
 
 *.gitignore file templates can be found here* <br/> 
-https://github.com/github/gitignore <br/> 
+https://github.com/github/gitignore <br/>  <br/>
 
 *Question: Should you commit and push your .gitignore file?* <br/> 
-**Answer: Yes, you should commit the . gitignore file to your remote repository. This ensures that all contributors to the project are on the same page regarding which files should not be tracked by Git.** <br/> 
+**Answer: Yes, you should commit the . gitignore file to your remote repository. This ensures that all contributors to the project are on the same page regarding which files should not be tracked by Git.** <br/>  <br/>
 
 *Tool to create .gitignore* <br/> 
 *Enter your tech stack, then press create. Copy and paste the contents of the webpage into your .gitignore file* <br/> 
-https://www.toptal.com/developers/gitignore  <br/> 
+https://www.toptal.com/developers/gitignore  <br/>  <br/>
 
 ## Section 4: Working directory
 
 **Command: echo > fileOne.txt** <br/> 
 Or <br/> 
 **Command: touch fileOne.txt** <br/> 
-*Explanation: Creates a file named fileOne.txt in the current directory with no text (This is not a git command)* <br/> 
+*Explanation: Creates a file named fileOne.txt in the current directory with no text (This is not a git command)* <br/>  <br/>
 
 **Command: echo Hello World! > fileOne.txt** <br/> 
 *Explanation: Creates a file named fileOne.txt in the current directory with text “Hello World!”* <br/> 
@@ -90,37 +90,37 @@ Or <br/>
 **Command: echo Hello World! > fileOne.txt** <br/> 
 **Command: echo Hello World! > app.go** <br/> 
 **Command: echo Hello World! > app.js** <br/> 
-**Command: echo Hello World! > index.html** <br/> 
+**Command: echo Hello World! > index.html** <br/>  <br/>
 
 
 **Command: echo Hello Again! >> fileOne.txt** <br/> 
-*Explanation: Appends “Hello Again!” to the end of a file named fileOne.txt in the current directory OR creates a new file named fileOne.txt if this file does not exist with the text “Hello Again!”* <br/>
+*Explanation: Appends “Hello Again!” to the end of a file named fileOne.txt in the current directory OR creates a new file named fileOne.txt if this file does not exist with the text “Hello Again!”* <br/>  <br/> 
 
 
 **Command: git ls-files** <br/> 
-*Explanation: How to view all files in directory* <br/> 
+*Explanation: How to view all files in directory* <br/>  <br/>
 
 
 **Command: mkdir folder-name** <br/> 
 *Explanation: How to create a directory (Folder) This is not a git command* <br/> 
-**Example: mkdir all-text-files** <br/> 
+**Example: mkdir all-text-files** <br/>  <br/>
 
 
 **Command: git diff FILE_NAME_HERE.txt ** <br/> 
 *Explanation: How to review the changes made to modified a file in working directory* <br/> 
-**Example: git diff Main.java** <br/> 
+**Example: git diff Main.java** <br/>  <br/>
 
 
 **Command: rm FILE_NAME_HERE**
 *Explanation: Removes a file named fileOne.txt in the current directory. This is not a git command* <br/> 
-**Example: rm Main.java** <br/> 
+**Example: rm Main.java** <br/>  <br/>
 
 
 
 **Command: git rm -f FILE_NAME_HERE** <br/> 
 *Explanation: Removes a file in the current directory AND from the staging area. This is a git command* <br/> 
 **Example: git rm -f Main.java** <br/> 
-**Note: Be careful using the -f (force) flag**
+**Note: Be careful using the -f (force) flag**  <br/>  <br/>
 
 
 
@@ -130,7 +130,7 @@ Or <br/>
 ## Status
 
 ### <ins>Show the status of working directory & Staging area</ins>
-**Command: git status**
+**Command: git status** 
 
 ### <ins>Show the status of working directory & Staging area with short description</ins>
 **Command: git status -s**
