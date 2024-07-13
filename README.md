@@ -88,14 +88,13 @@ Or <br/>
 **Example: touch fileOne.txt** <br/>
 *Explanation: Creates a file in the current directory with no text. This is not a git command.* <br/>  <br/>
 
-**Command: echo Hello World! > FILE_NAME_HERE** <br/> 
+**Command: echo Hello World! > FILE_NAME_HERE.EXTENSION** <br/> 
 **Examples:** <br/> 
 **Command: echo Hello World! > fileOne.txt** <br/> 
 **Command: echo Hello World! > app.go** <br/> 
 **Command: echo Hello World! > app.js** <br/> 
 **Command: echo Hello World! > index.html** <br/>
-*Explanation: Creates a file  in the current directory with text “Hello World!”* <br/> 
-*You can create all different types of files* <br/> <br/>
+*Explanation: Creates a file in the current directory with text “Hello World!”. You can create all different types of files* <br/> <br/>
 
 **Command: echo Hello Again! >> FILE_NAME_HERE** <br/> 
 **Example: echo Hello Again! >> fileOne.txt** <br/>
@@ -170,20 +169,42 @@ Or <br/>
 *Explanation: Add all the changes from working directory to staging area (Be Careful with this!)*  <br/>  <br/>
 
 
+## Discarding changes from working directory
+
+**Command: git restore FILE_NAME_HERE** <br/>
+**Example: git restore fileOne.txt**  <br/>
+*Explanation: This will undo any local changes in working directory for the file*  <br/>  <br/>
+
+
+**Command: git restore** <br/>
+*Explanation: This will undo any local changes in working directory for all files*  <br/>  <br/> 
+
+**Command: git clean -fd** <br/>
+*Explanation: This will remove any newly created files that have not been tracked *  <br/>  <br/> 
+
+
+## Removing files from Staging area and returning back to working directory
+
+**Command: git restore --staged FILE_NAME_HERE**
+**Example: git restore –-staged fileOne.txt**
+*Explanation: Keep your changes to the file, but return file to working directory*
+
+**Command: git rm--cached FILE_NAME_HERE**
+**Example:git rm –-cached fileOne.txt**
+*Explanation: Keep your changes to the file, but return file to working directory*
+*Note: cached removes from the index aka the staging area*
 
 
 
+## Commits
 
+## Branches
 
+## Pushing
 
+## Pulling
 
-
-
-
-
-
-
-
+## Extra
 
 ## Status
 
