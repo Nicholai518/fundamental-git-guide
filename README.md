@@ -40,7 +40,7 @@ Website: https://github.com/ <br/>
 **Command: git clone https://github.com/YOUR_ACCOUNT/YOUR_REPO_HERE.git** <br/> 
 *Explanation:  Make a clone or copy of that repo at in a new directory, or at another location.* <br/> 
 *Note: Navigate to the desired directory on your computer before cloning repository* <br/> 
-*Ex: C:\Dev\Java*  <br/>  <br/>
+*Example Directory: C:\Dev\Java*  <br/>  <br/>
 
 ## Picture for reference
 ![alt text](https://docs.github.com/assets/cb-60499/images/help/repository/https-url-clone-cli.png)
@@ -78,32 +78,37 @@ https://www.toptal.com/developers/gitignore  <br/>  <br/>
 
 ## Section 4: Working directory
 
-**Command: echo > fileOne.txt** <br/> 
-Or <br/> 
-**Command: touch fileOne.txt** <br/> 
-*Explanation: Creates a file named fileOne.txt in the current directory with no text (This is not a git command)* <br/>  <br/>
+## Create files / directories in working directory
 
-**Command: echo Hello World! > fileOne.txt** <br/> 
-*Explanation: Creates a file named fileOne.txt in the current directory with text “Hello World!”* <br/> 
-*You can create all different types of files* <br/> 
-*Examples:* <br/> 
+**Command: echo > FILE_NAME_HERE** <br/> 
+**Example: echo > fileOne.txt** <br/> 
+Or <br/> 
+**Command: touch FILE_NAME_HERE** <br/> 
+**Example: touch fileOne.txt** <br/>
+*Explanation: Creates a file in the current directory with no text. This is not a git command.* <br/>  <br/>
+
+**Command: echo Hello World! > FILE_NAME_HERE** <br/> 
+**Examples:** <br/> 
 **Command: echo Hello World! > fileOne.txt** <br/> 
 **Command: echo Hello World! > app.go** <br/> 
 **Command: echo Hello World! > app.js** <br/> 
-**Command: echo Hello World! > index.html** <br/>  <br/>
+**Command: echo Hello World! > index.html** <br/>
+*Explanation: Creates a file  in the current directory with text “Hello World!”* <br/> 
+*You can create all different types of files* <br/> <br/>
 
-
-**Command: echo Hello Again! >> fileOne.txt** <br/> 
-*Explanation: Appends “Hello Again!” to the end of a file named fileOne.txt in the current directory OR creates a new file named fileOne.txt if this file does not exist with the text “Hello Again!”* <br/>  <br/> 
+**Command: echo Hello Again! >> FILE_NAME_HERE** <br/> 
+**Example: echo Hello Again! >> fileOne.txt** <br/>
+*Explanation: Appends “Hello Again!” to the end of a file in the current directory. Or, creates a new file, with the specified file name, if this file does not exist with the text “Hello Again!”* <br/>  <br/> 
 
 
 **Command: git ls-files** <br/> 
-*Explanation: How to view all files in directory* <br/>  <br/>
+*Explanation: How to view all files in directory* <br/> <br/>
 
 
-**Command: mkdir folder-name** <br/> 
-*Explanation: How to create a directory (Folder) This is not a git command* <br/> 
-**Example: mkdir all-text-files** <br/>  <br/>
+**Command: mkdir FOLDER_NAME_HERE** <br/> 
+**Example: mkdir all-text-files** <br/> 
+*Explanation: How to create a directory (Folder) This is not a git command* <br/>  <br/>
+
 
 
 **Command: git diff FILE_NAME_HERE.txt ** <br/> 
@@ -111,6 +116,7 @@ Or <br/>
 **Example: git diff Main.java** <br/>  <br/>
 
 
+## Remove files from working directory
 **Command: rm FILE_NAME_HERE**
 *Explanation: Removes a file named fileOne.txt in the current directory. This is not a git command* <br/> 
 **Example: rm Main.java** <br/>  <br/>
@@ -118,9 +124,60 @@ Or <br/>
 
 
 **Command: git rm -f FILE_NAME_HERE** <br/> 
-*Explanation: Removes a file in the current directory AND from the staging area. This is a git command* <br/> 
 **Example: git rm -f Main.java** <br/> 
-**Note: Be careful using the -f (force) flag**  <br/>  <br/>
+*Explanation: Removes a file in the current directory AND from the staging area. This is a git command* <br/> 
+*Note: Be careful using the -f (force) flag*  <br/>  <br/>
+
+
+## Move or rename a file(s)
+**Command: mv ORIGINAL_FILE_NAME NEW_FILE_NAME**  <br/>
+**Example: mv fileOne.txt fileTwo.txt** <br/> 
+*Explanation: Rename a file from ORIGINAL_FILE_NAME to NEW_FILE_NAME . This is not a git command*  <br/>  <br/>
+
+
+**Command: mv FILE_NAME DIRECTORY src/** <br/>
+**Example: mv fileOne.txt notes/** <br/> 
+*Explanation: Move a file to a directory. This is not a git command* <br/> <br/>
+
+
+
+**Command: git mv ORIGINAL_FILE_NAME NEW_FILE_NAME**
+**Example: git mv fileOne.txt fileTwo.txt** <br/> 
+*Explanation: Rename a file from ORIGINAL_FILE_NAME to NEW_FILE_NAME. This is a git command and changes are applied to working directory and staging area* <br/>
+*Note: File must be added to staging area for this command to work* <br/> <br/>
+
+
+## Add file(s) from working directory to staging area
+**Command: git add FILE_NAME_HERE** <br/> 
+**Example: git add fileOne.txt ** <br/> 
+*Explanation: Add file from working directory to staging area*
+
+**Command: git add FIRST_FILE_NAME_HERE SECOND_FILE_NAME_HERE**  <br/> 
+**Example: git add fileOne.txt fileTwo.txt** <br/> 
+*Explanation: Add both files from working directory to staging area <br/>  
+*Note: File names are separated by a space* <br/> <br/>
+
+
+**Command: git add *.EXTENSION_HERE**<br/>
+**Examples:** <br/>
+**Command: git add *.txt** <br/> 
+**Command: git add *.java** <br/> 
+*Explanation: All files with the specified extension will be added from the working directory to the staging area* <br/> <br/>
+
+
+**Command: git add .** <br/>
+*Explanation: Add all the changes from working directory to staging area (Be Careful with this!)*  <br/>  <br/>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
