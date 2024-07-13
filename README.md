@@ -4,7 +4,7 @@ Website:https://github.com/ <br/>
 
 ## Section 1: Creating a repository on Github
 
-## Picture of steps Github provides to users when creating a new repository.
+## Picture for reference
 ![alt text](https://cdn-media-1.freecodecamp.org/images/cxRrZUe-tW2Wkn0WUg-MsN1m1WesvGPlJT7V) 
 
 **Command: echo "# NAME_OF_YOUR_REPO" >> README.md** <br/>
@@ -31,18 +31,33 @@ Website:https://github.com/ <br/>
 *Meaning: Publish your local code changes to a remote repository, specifically the main branch* <br/> <br/>
 
 
-
-
 ## Local / Remote Repository Visual Representation
 ![alt text](https://media.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvpxeexqyfvf4hw3zxtbn.png)
 
 
-## How to clone a repository from Github
+## Section 2: How to clone a repository from Github
 
 **Command: git clone https://github.com/YOUR_ACCOUNT/YOUR_REPO_HERE.git**
 <br/>*Meaning: Make a clone or copy of that repo at in a new directory, or at another location.*
 <br/>*Note: Navigate to the desired directory on your computer before cloning repository*
 <br/>*Ex: C:\Dev\Java*
+
+## Picture for reference
+![alt text](https://docs.github.com/assets/cb-60499/images/help/repository/https-url-clone-cli.png)
+
+**Steps to clone a repository**
+- Go to the Github repository you wish to clone
+- Click on "Code"
+- Copy and paste the URL
+- Open up Git on your compute
+- Navigate to the desired directory
+- Use this command to clone the repository: **git clone URL**
+
+
+
+
+
+
 
 
 ## Status
