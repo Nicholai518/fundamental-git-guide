@@ -51,7 +51,8 @@ Website: https://github.com/ <br/>
 - Copy and paste the HTTPS Web URL  <br/>
 - Open up Git on your compute  <br/>
 - Navigate to the desired directory  <br/>
-- Use this command to clone the repository: **git clone WEB_URL_GOES_HERE**  <br/>  <br/>
+- Use this command to clone the repository: **git clone WEB_URL_GOES_HERE**  <br/>
+- Example: **git clone https://github.com/github/docs.git** <br/> <br/> 
 
 ## Section 3: How to create a .gitignore file
 
