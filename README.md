@@ -77,7 +77,7 @@ https://github.com/github/gitignore <br/>  <br/>
 *Enter your tech stack, then press create. Copy and paste the contents of the webpage into your .gitignore file* <br/> 
 https://www.toptal.com/developers/gitignore  <br/>  <br/>
 
-## Section 4: Working directory
+## Section 4: Working Directory
 
 ## Create files / directories in working directory
 
@@ -185,26 +185,26 @@ Or <br/>
 
 ## Removing files from Staging area and returning back to working directory
 
-**Command: git restore --staged FILE_NAME_HERE**
-**Example: git restore –-staged fileOne.txt**
-*Explanation: Keep your changes to the file, but return file to working directory*
+**Command: git restore --staged FILE_NAME_HERE** <br/>
+**Example: git restore –-staged fileOne.txt** <br/>
+*Explanation: Keep your changes to the file, but return file to working directory* <br/> <br/>
 
-**Command: git rm--cached FILE_NAME_HERE**
-**Example:git rm –-cached fileOne.txt**
-*Explanation: Keep your changes to the file, but return file to working directory*
-*Note: cached removes from the index aka the staging area*
+**Command: git rm--cached FILE_NAME_HERE** <br/>
+**Example:git rm –-cached fileOne.txt** <br/>
+*Explanation: Keep your changes to the file, but return file to working directory* <br/>
+*Note: cached removes from the index aka the staging area* <br/> <br/>
 
 
 
-## Commits
+## Section 5: Commits
 
-## Branches
+## Section 6: Branches
 
-## Pushing
+## Section 7: Pushing
 
-## Pulling
+## Section 8: Pulling
 
-## Extra
+## Section 9: Extra
 
 ## Status
 
