@@ -48,10 +48,68 @@ Website:https://github.com/ <br/>
 **Steps to clone a repository**
 - Go to the Github repository you wish to clone
 - Click on "Code"
-- Copy and paste the URL
+- Copy and paste the HTTPS Web URL
 - Open up Git on your compute
 - Navigate to the desired directory
-- Use this command to clone the repository: **git clone URL**
+- Use this command to clone the repository: **git clone WEB_URL_GOES_HERE**
+
+## Section 3: How to create a .gitignore file
+
+*Creates an empty .gitignore file*
+**Command: echo > .gitignore**
+Or
+**Command: touch .gitignore**
+
+*Question: What is a .gitignore file?*
+**Answer: Specifies intentionally untracked files that Git should ignore.**  
+
+*More information about .gitignore files can be found here*
+https://git-scm.com/docs/gitignore 
+
+*.gitignore file templates can be found here*
+https://github.com/github/gitignore 
+
+*Question: Should you commit and push your .gitignore file?*
+**Answer: Yes, you should commit the . gitignore file to your remote repository. This ensures that all contributors to the project are on the same page regarding which files should not be tracked by Git.**
+
+*Tool to create .gitignore*
+*Enter your tech stack, then press create. Copy and paste the contents of the webpage into your .gitignore file*
+https://www.toptal.com/developers/gitignore 
+
+## Section 4: Working directory
+
+*Creates a file named fileOne.txt in the current directory with no text (This is not a git command)*
+**Command: echo > fileOne.txt**
+Or
+**Command: touch fileOne.txt**
+
+*Creates a file named fileOne.txt in the current directory with text “Hello World!”*
+**Command: echo Hello World! > fileOne.txt**
+
+*Appends “Hello Again!” to the end of a file named fileOne.txt in the current directory OR creates a new file named fileOne.txt if this file does not exist with the text “Hello Again!”*
+**Command: echo Hello Again! >> fileOne.txt**
+
+*You can create all different types of files*
+**Command: echo Hello World! > fileOne.txt**
+**Command: echo Hello World! > app.go**
+**Command: echo Hello World! > app.js**
+**Command: echo Hello World! > index.html** 
+
+*How to view all files in directory*
+**Command: git ls-files**
+
+*How to create a directory (Folder) This is not a git command*
+**Command: mkdir folder-name**
+**Ex: mkdir all-text-files**
+
+*How to review the changes made to modified files in working directory*
+**Command: git diff fileOne.txt **
+
+
+
+
+
+
 
 
 
