@@ -71,7 +71,7 @@ https://git-scm.com/docs/gitignore <br/>  <br/>
 https://github.com/github/gitignore <br/>  <br/>
 
 *Question: Should you commit and push your .gitignore file?* <br/> 
-**Answer: Yes, you should commit the . gitignore file to your remote repository. This ensures that all contributors to the project are on the same page regarding which files should not be tracked by Git.** <br/>  <br/>
+**Answer: Yes, you should commit the .gitignore file to your remote repository. This ensures that all contributors to the project are on the same page regarding which files should not be tracked by Git.** <br/>  <br/>
 
 *Tool to create .gitignore* <br/> 
 *Enter your tech stack, then press create. Copy and paste the contents of the webpage into your .gitignore file* <br/> 
