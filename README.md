@@ -4,7 +4,7 @@
 A git guide which contains fundamental commands for creating, updating and maintaining git repositories. <br/>
 Website: https://github.com/ <br/>
 Git Download: https://git-scm.com/downloads <br/>
-How to check which version of git you have: **git --version**  <br/>
+Use this command to check your version of Git: **git --version**  <br/>
 
 ## Section 1: Creating a repository on Github
 
