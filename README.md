@@ -1,6 +1,10 @@
 # fundamental-git-guide
+
+## General
 A git guide which contains fundamental commands for creating, updating and maintaining git repositories. <br/>
 Website: https://github.com/ <br/>
+Git Download: https://git-scm.com/downloads <br/>
+How to check which version of git you have: **git --version**  <br/>
 
 ## Section 1: Creating a repository on Github
 
@@ -111,7 +115,7 @@ Or <br/>
 
 
 
-**Command: git diff FILE_NAME_HERE.txt ** <br/> 
+**Command: git diff FILE_NAME_HERE.txt** <br/> 
 *Explanation: How to review the changes made to modified a file in working directory* <br/> 
 **Example: git diff Main.java** <br/>  <br/>
 
@@ -149,19 +153,19 @@ Or <br/>
 
 ## Add file(s) from working directory to staging area
 **Command: git add FILE_NAME_HERE** <br/> 
-**Example: git add fileOne.txt ** <br/> 
-*Explanation: Add file from working directory to staging area*
+**Example: git add fileOne.txt** <br/> 
+*Explanation: Add file from working directory to staging area* <br/> 
 
 **Command: git add FIRST_FILE_NAME_HERE SECOND_FILE_NAME_HERE**  <br/> 
 **Example: git add fileOne.txt fileTwo.txt** <br/> 
-*Explanation: Add both files from working directory to staging area <br/>  
+*Explanation: Add both files from working directory to staging area* <br/>  
 *Note: File names are separated by a space* <br/> <br/>
 
 
-**Command: git add *.EXTENSION_HERE**<br/>
+**Command: git add \*.EXTENSION_HERE** <br/>
 **Examples:** <br/>
-**Command: git add *.txt** <br/> 
-**Command: git add *.java** <br/> 
+**Command: git add \*.txt** <br/> 
+**Command: git add \*.java** <br/> 
 *Explanation: All files with the specified extension will be added from the working directory to the staging area* <br/> <br/>
 
 
@@ -236,15 +240,15 @@ Or <br/>
 
 ## How to change / update the commit message (Not making any changes to files)
 **Command: git commit --amend -m “NEW_COMMIT_MESSAGE_HERE”**  <br/>
-**Example: git commit --amend -m “NEW_COMMIT_MESSAGE_HERE”**  <br/> 
+**Example: git commit --amend -m “Fixed typo in previous commit”**  <br/> 
 
 *Explanation: You don't need to make any changes to files but want to update your most recent commit message*  <br/>
 *Note: Your files and code are good, but you accidentally made a typo in your commit message, this is how you can fix it.*  <br/>  <br/>
 
 
 ## How to stash committed changes and pop changes on new branch
-**Command: git reset HEAD~ --soft **    <br/>
-**Command: git stash ** <br/>
+**Command: git reset HEAD~ --soft**    <br/>
+**Command: git stash** <br/>
 **Command: git checkout name-of-the-desired-branch**  <br/>
 **Command: git stash pop**  <br/>
 **Command: git add . # or add individual files**  <br/>
@@ -311,9 +315,9 @@ Or   <br/>
 ## Viewing Changes
 
 ### View Staged and Unstaged changes
-**Command: git diff FILE_NAME**
-<br/>*Note: View changes for a single file*
-<br/>*Ex: git diff Main.java* 
+**Command: git diff FILE_NAME** <br/>
+*Note: View changes for a single file* <br/>
+*Ex: git diff Main.java* <br/> <br/>
 
 **Command: git diff**
 <br/>*View all unstaged changes, What is in the working directory VS what is in staging area*
