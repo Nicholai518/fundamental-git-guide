@@ -12,7 +12,7 @@ Use this command to check your version of Git: **git --version**  <br/>
 ![alt text](https://cdn-media-1.freecodecamp.org/images/cxRrZUe-tW2Wkn0WUg-MsN1m1WesvGPlJT7V) 
 
 **Command: echo "# NAME_OF_YOUR_REPO" >> README.md** <br/>
-*Explanation:  Copies text "NAME_OF_YOUR_REPO" into the README.md file*  <br/>  <br/>
+*Explanation:  Writes text "NAME_OF_YOUR_REPO" into the README.md file*  <br/>  <br/>
 
 **Command: git init** <br/>
 *Explanation:  Creates a new git repository. You can begin to start tracking different versions of your project!* <br/>  <br/>
