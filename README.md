@@ -285,7 +285,7 @@ Or   <br/>
 *Explanation: Shows blob’s (files), commits, Tags and tree’s (Directories) for a specific commit* <br/> <br/>
 
 ## Restoring a file to an earlier version
-**Command: git restore –source=HEAD~NUMBER_OF_COMMITS FILE_NAME** <br/>
+**Command: git restore –-source=HEAD~NUMBER_OF_COMMITS FILE_NAME** <br/>
 **Example: git restore --source=HEAD~3 fileOne.txt** <br/>
 *Explanation: You accidentally deleted an important file. You can recover the file from an earlier commit* <br/> <br/>
 
