@@ -217,6 +217,12 @@ Or <br/>
 *Explanation: Commit a "snapshot" of your Git local repository at one point in time* <br/> 
 *TIp: The first word of your commit message should be something like “added”, “fixed”, “updated”, “created”, “removed” . Essentially something with an “ed” at the end.* <br/> <br/>
 
+## How to combine multiple commits into one commit
+**Command: git rebase -i HEAD~NUMBER_OF_COMMITS** <br/>
+**Example: git rebase -i HEAD~3** <br/>
+*Explanation: Opens a VIM terminal allowing you to pick or squash the 3 most recent commits* <br/> 
+*TIp: If you have many commits, squash some of your commits for a cleaner more readable commit history* <br/> <br/>
+
 
 ## How to unstage files from a commit
 **Command: git restore –-staged FILE_NAME_HERE**  <br/>
