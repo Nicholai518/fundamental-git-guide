@@ -221,8 +221,16 @@ Or <br/>
 **Command: git rebase -i HEAD~NUMBER_OF_COMMITS** <br/>
 **Example: git rebase -i HEAD~3** <br/>
 *Explanation: Opens a VIM terminal allowing you to pick or squash the 3 most recent commits* <br/> 
-*TIp: If you have many commits, squash some of your commits for a cleaner more readable commit history* <br/> <br/>
+*Tip: If you have many commits, squash some of your commits for a cleaner more readable commit history* <br/>
 
+*VIM Tips* <br/>
+- Press "i" to insert and begin typing.
+- Type pick or squash for your commits.
+- Press "Esc" when you're done typing
+- Press ":" which will allow you to type your final command to write and quit
+- Type "wq" (Meaning: Write and Quit)
+- Press "Enter"
+<br/> <br/>
 
 ## How to unstage files from a commit
 **Command: git restore –-staged FILE_NAME_HERE**  <br/>
