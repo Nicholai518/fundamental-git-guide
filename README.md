@@ -357,9 +357,6 @@ git branch -a <br/> <br/>
 **Command: git status -s** <br/>
 *Explanation: -s is the “short status” flag* <br/> <br/>
 
-
-## Viewing Changes
-
 ## View Staged and Unstaged changes
 **Command: git diff FILE_NAME** <br/>
 **Example: git diff fileOne.txt** <br/>
@@ -367,11 +364,11 @@ git branch -a <br/> <br/>
 
 **Command: git diff** <br/>
 *Explanation: View all unstaged changes, What is in the working directory VS what is in staging area* <br/>
-*Note: Empty response means all files with changes in working directory have been added to staging area* <br/> <br/>
+*Note: Empty response means all files with changes in working directory have been added to staging area. Use the command **git diff --staged** instead* <br/> <br/>
 
 
 **Command: git diff --staged** <br/>
-*Explanation: View staged changes to all files that will be included in next commit* <br/>
+*Explanation: View staged changes to all files that will be included in next commit* <br/> <br/>
 
 
 ## Section 9: Extra
