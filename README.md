@@ -105,6 +105,10 @@ Or <br/>
 *Explanation: Appends “Hello Again!” to the end of a file in the current directory. Or, creates a new file, with the specified file name, if this file does not exist with the text “Hello Again!”* <br/>  <br/> 
 
 
+**Command: cat FILE_NAME_HERE** <br/> 
+**Example: cat fileOne.txt** <br/>
+*Explanation: View the contents of the file in your terminal. This is not a git command.”* <br/>  <br/> 
+
 **Command: git ls-files** <br/> 
 *Explanation: How to view all files in directory* <br/> <br/>
 
