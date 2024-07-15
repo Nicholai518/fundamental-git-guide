@@ -296,9 +296,50 @@ Or   <br/>
 
 ## Section 6: Branches
 
+## Create a branch
+**Command: git branch BRANCH_NAME** <br/>
+**Example: git branch print-out-friend-names** <br/>
+*Explanation: Branches are effectively a pointer to a snapshot of your changes. When you want to add a new feature or fix a bug—no matter, whatever, you need a new branch to encapsulate your changes.* <br/>
+*Note: Do not use spaces in branch names* <br/> <br/>
+
+## Checkout a branch
+**Command: git checkout BRANCH_NAME** <br/>
+**Example: git checkout print-out-friend-names** <br/>
+*Explanation: Navigate to the specified branche. Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch.*  <br/> <br/>
+
+## Create and Checkout a branch at the same time
+**Command: git checkout -b BRANCH_NAME** <br/>
+**Example: git checkout -b print-out-friend-names** <br/>
+*Explanation: Allows you to create and checkout a new branch all in one command*  <br/> <br/>
+
+## Merge a branch
+**Command: git merge BRANCH_NAME** <br/>
+**Example: git merge print-out-friend-names** <br/>
+*Explanation: Merges an existing branch into the branch you have checked out* <br/> <br/>
+
+## List all local branches
+**Command: git branch** <br/>
+
+## List all local and remote branches
+git branch -a <br/> <br/>
+
+
 ## Section 7: Pushing
+## Pushing on a new branch for the first time <br/>
+**Command: git push –set-upstream origin BRANCH_NAME** <br/>
+**Example: git push --set-upstream origin print-out-friend-name** <br/>
+*Explanation: Tells Git to set the upstream branch for the current local branch. The upstream branch is the branch on the remote repository that you want to keep your local branch synchronized with.* <br/> <br/>
+
+## Pushing on a branch (Not first time) <br/>
+**Command: git push**
+*Explanation: upload local repository content to a remote repository.*
 
 ## Section 8: Pulling
+**Command: git pull**
+*Explanation: Used to fetch and download content from a remote repository and immediately update the local repository to match that content*
+
+## Section 9: Fetching
+
 
 ## Section 9: Extra
 
@@ -328,3 +369,10 @@ Or   <br/>
 <br/>*View staged changes to all files that will be included in next commit*
 
 
+
+TEMPLATE
+## 
+**Command:**
+**Example:**
+*Explanation:* 
+*Note:*
