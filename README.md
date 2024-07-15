@@ -330,44 +330,51 @@ git branch -a <br/> <br/>
 **Example: git push --set-upstream origin print-out-friend-name** <br/>
 *Explanation: Tells Git to set the upstream branch for the current local branch. The upstream branch is the branch on the remote repository that you want to keep your local branch synchronized with.* <br/> <br/>
 
-## Pushing on a branch (Not first time) <br/>
+## Pushing  (Not first time) <br/>
 **Command: git push**
-*Explanation: upload local repository content to a remote repository.*
+*Explanation: Upload local repository content to a remote repository.*
+*Note: You have added your changes to staging, committed the changes to your local repository, now you want to push your work to the remote repository*
 
 ## Section 8: Pulling
 **Command: git pull**
 *Explanation: Used to fetch and download content from a remote repository and immediately update the local repository to match that content*
 
 ## Section 9: Fetching
+**Command: git fetch**
+*Explanation:  Used to download commits, files, and refs from a remote repository into your local repo. Fetching is what you do when you want to see what everybody else has been working on.*
+
+## Pull VS Fetch
+**The most significant difference between "git pull" and "git fetch" is that "git pull" automatically merges the fetched changes into the current branch, while "git fetch" does not. This makes "git pull" a more convenient command if you want to quickly update your local branch with changes from the remote repository**
 
 
-## Section 9: Extra
 
-## Status
+## Section 9: Viewing Status and changes to files
 
-### <ins>Show the status of working directory & Staging area</ins>
-**Command: git status** 
+## Show the status of working directory & Staging area
+**Command: git status** <br/> <br/>
 
-### <ins>Show the status of working directory & Staging area with short description</ins>
-**Command: git status -s**
-<br/>*Note: -s is the “short status” flag*
+## Show the status of working directory & Staging area with short description</ins>
+**Command: git status -s** <br/>
+*Explanation: : -s is the “short status” flag* <br/> <br/>
 
 
 ## Viewing Changes
 
-### View Staged and Unstaged changes
+## View Staged and Unstaged changes
 **Command: git diff FILE_NAME** <br/>
-*Note: View changes for a single file* <br/>
-*Ex: git diff Main.java* <br/> <br/>
+**Example: git diff fileOne.txt** <br/>
+*Explanation: View unstaged changes for a specific file* <br/> <br/>
 
-**Command: git diff**
-<br/>*View all unstaged changes, What is in the working directory VS what is in staging area*
-<br/>*Note: Empty response means all files with changes in working directory have been added to staging area*
+**Command: git diff** <br/>
+*Explanation: View all unstaged changes, What is in the working directory VS what is in staging area* <br/>
+*Note: Empty response means all files with changes in working directory have been added to staging area* <br/> <br/>
 
 
-**Command: git diff --staged**
-<br/>*View staged changes to all files that will be included in next commit*
+**Command: git diff --staged** <br/>
+*Explanation: View staged changes to all files that will be included in next commit* <br/>
 
+
+## Section 9: Extra
 
 
 TEMPLATE
