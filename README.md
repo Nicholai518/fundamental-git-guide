@@ -220,10 +220,10 @@ Or <br/>
 ## How to combine multiple commits into one commit
 **Command: git rebase -i HEAD~NUMBER_OF_COMMITS** <br/>
 **Example: git rebase -i HEAD~3** <br/>
-*Explanation: Opens a VIM terminal allowing you to pick or squash the 3 most recent commits* <br/> 
+*Explanation: Opens a Vim terminal allowing you to pick or squash the 3 most recent commits* <br/> 
 *Tip: If you have many commits, squash some of your commits for a cleaner more readable commit history* <br/>
 
-VIM Tips <br/>
+Vim Tips <br/>
 - Press "i" to insert and begin typing.
 - Type pick or squash for your commits.
 - Press "Esc" when you're done typing
