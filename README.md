@@ -223,7 +223,7 @@ Or <br/>
 *Explanation: Opens a VIM terminal allowing you to pick or squash the 3 most recent commits* <br/> 
 *Tip: If you have many commits, squash some of your commits for a cleaner more readable commit history* <br/>
 
-*VIM Tips* <br/>
+VIM Tips <br/>
 - Press "i" to insert and begin typing.
 - Type pick or squash for your commits.
 - Press "Esc" when you're done typing
