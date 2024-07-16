@@ -4,7 +4,7 @@
 A git guide which contains fundamental commands for creating, updating and maintaining git repositories. <br/>
 Website: https://github.com/ <br/>
 Git Download: https://git-scm.com/downloads <br/>
-
+Github Desktop: https://desktop.github.com/ <br/>
 
 ## Section 1: Creating a repository on Github
 
@@ -349,24 +349,24 @@ git branch -a <br/> <br/>
 *Explanation: Tells Git to set the upstream branch for the current local branch. The upstream branch is the branch on the remote repository that you want to keep your local branch synchronized with.* <br/> <br/>
 
 ## Pushing  (Not first time) <br/>
-**Command: git push**
-*Explanation: Upload local repository content to a remote repository.*
-*Note: You have added your changes to staging, committed the changes to your local repository, now you want to push your work to the remote repository*
+**Command: git push**  <br/>
+*Explanation: Upload local repository content to a remote repository.*  <br/>
+*Note: You have added your changes to staging, committed the changes to your local repository, now you want to push your work to the remote repository*  <br/>  <br/>
 
 ## Section 8: Pull / Fetch / What's the difference
-**Command: git pull**
-*Explanation: Used to fetch and download content from a remote repository and immediately update the local repository to match that content*
+**Command: git pull**  <br/>
+*Explanation: Used to fetch and download content from a remote repository and immediately update the local repository to match that content*  <br/>  <br/>
 
-**Command: git fetch**
-*Explanation:  Used to download commits, files, and refs from a remote repository into your local repo. Fetching is what you do when you want to see what everybody else has been working on.*
+**Command: git fetch**  <br/>
+*Explanation:  Used to download commits, files, and refs from a remote repository into your local repo. Fetching is what you do when you want to see what everybody else has been working on.*  <br/>  <br/>
 
 ## Pull VS Fetch
-**The most significant difference between "git pull" and "git fetch" is that "git pull" automatically merges the fetched changes into the current branch, while "git fetch" does not. This makes "git pull" a more convenient command if you want to quickly update your local branch with changes from the remote repository**
+**The most significant difference between "git pull" and "git fetch" is that "git pull" automatically merges the fetched changes into the current branch, while "git fetch" does not. This makes "git pull" a more convenient command if you want to quickly update your local branch with changes from the remote repository**  <br/>  <br/>
 
 ## Visual Representation of Pull vs Fetch
 ![alt text](https://itknowledgeexchange.techtarget.com/coffee-talk/files/2023/05/gf03.gif) 
 
-
+ <br/>  <br/>
 ## Section 9: Viewing Status and changes to files
 
 ## Show the status of working directory & Staging area
@@ -385,17 +385,32 @@ git branch -a <br/> <br/>
 *Explanation: View all unstaged changes, What is in the working directory VS what is in staging area* <br/>
 *Note: Empty response means all files with changes in working directory have been added to staging area. Use the command **git diff --staged** instead* <br/> <br/>
 
-
 **Command: git diff --staged** <br/>
 *Explanation: View staged changes to all files that will be included in next commit* <br/> <br/>
 
 
-## Section 9: Extra
+## Section 10: Extra helpful commands
 
+**Command: git –-version**  <br/>
+*Explanation: Shows a list of helpful git commands*  <br/> <br/>
+
+**Command: git –-help**  <br/>
+*Explanation: Shows the current version of git you have installed*  <br/> <br/>
+
+## Section 11: Links
+
+## Informational 
+Git Branch Manual: https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-branch.html  <br/>
+Learn Git Branching: https://learngitbranching.js.org/   <br/>
+Different Scenarios: https://ohshitgit.com/ <br/>
+Git Flow: https://www.gitkraken.com/learn/git/git-flow  <br/> <br/>
+
+## Practice exercises
+Learn Git Branching: https://learngitbranching.js.org/ <br/> <br/>
 
 TEMPLATE
 ## 
-**Command:**
-**Example:**
-*Explanation:* 
-*Note:*
+**Command:**  <br/>
+**Example:**  <br/>
+*Explanation:*   <br/>
+*Note:*  <br/>
