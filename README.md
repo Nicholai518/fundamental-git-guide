@@ -4,7 +4,7 @@
 A git guide which contains fundamental commands for creating, updating and maintaining git repositories. <br/>
 Website: https://github.com/ <br/>
 Git Download: https://git-scm.com/downloads <br/>
-Use this command to check your version of Git: **git --version**  <br/>
+
 
 ## Section 1: Creating a repository on Github
 
@@ -353,17 +353,18 @@ git branch -a <br/> <br/>
 *Explanation: Upload local repository content to a remote repository.*
 *Note: You have added your changes to staging, committed the changes to your local repository, now you want to push your work to the remote repository*
 
-## Section 8: Pulling
+## Section 8: Pull / Fetch / What's the difference
 **Command: git pull**
 *Explanation: Used to fetch and download content from a remote repository and immediately update the local repository to match that content*
 
-## Section 9: Fetching
 **Command: git fetch**
 *Explanation:  Used to download commits, files, and refs from a remote repository into your local repo. Fetching is what you do when you want to see what everybody else has been working on.*
 
 ## Pull VS Fetch
 **The most significant difference between "git pull" and "git fetch" is that "git pull" automatically merges the fetched changes into the current branch, while "git fetch" does not. This makes "git pull" a more convenient command if you want to quickly update your local branch with changes from the remote repository**
 
+## Visual Representation of Pull vs Fetch
+![alt text](https://itknowledgeexchange.techtarget.com/coffee-talk/files/2023/05/gf03.gif) 
 
 
 ## Section 9: Viewing Status and changes to files
