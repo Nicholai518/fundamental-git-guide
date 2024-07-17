@@ -49,7 +49,7 @@ Github Desktop: https://desktop.github.com/ <br/>
 ## Picture for reference
 ![alt text](https://docs.github.com/assets/cb-60499/images/help/repository/https-url-clone-cli.png)
  <br/>  <br/>
-**Steps to clone a repository**  <br/>
+**Steps to clone a repository (HTTPS)**  <br/>
 - Go to the Github repository you wish to clone  <br/>
 - Click on "Code"  <br/>
 - Copy and paste the HTTPS Web URL  <br/>
@@ -57,6 +57,10 @@ Github Desktop: https://desktop.github.com/ <br/>
 - Navigate to the desired directory  <br/>
 - Use this command to clone the repository: **git clone WEB_URL_GOES_HERE**  <br/>
 - Example: **git clone https://github.com/github/docs.git** <br/> <br/> 
+
+**Steps to clone a repository (SSH)**  <br/>
+
+
 
 ## Section 3: How to create a .gitignore file
 
@@ -366,8 +370,10 @@ git branch -a <br/> <br/>
 ## Visual Representation of Pull vs Fetch
 ![alt text](https://itknowledgeexchange.techtarget.com/coffee-talk/files/2023/05/gf03.gif) 
 
+## Section 9: Pull Requests
  <br/>  <br/>
-## Section 9: Viewing Status and changes to files
+ 
+## Section 10: Viewing Status and changes to files
 
 ## Show the status of working directory & Staging area
 **Command: git status** <br/> <br/>
@@ -389,7 +395,7 @@ git branch -a <br/> <br/>
 *Explanation: View staged changes to all files that will be included in next commit* <br/> <br/>
 
 
-## Section 10: Extra helpful commands
+## Section 11: Extra helpful commands
 
 **Command: git –-version**  <br/>
 *Explanation: Shows a list of helpful git commands*  <br/> <br/>
