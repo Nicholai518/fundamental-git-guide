@@ -1,10 +1,13 @@
 # fundamental-git-guide
 
+## Motivation
+While working on a project, I have thought to myself "What was that Git command again?". Git has about ten commands you will use every single day, but there are a few really important commands which are used once in a while. I believe Git is an essential part of being a Software Engineer which I will use for the rest of my career. I wanted to create a guide to improve my understanding and also have a living document which myself and others can use.
+
 ## General
-A git guide which contains fundamental commands for creating, updating and maintaining git repositories. <br/>
+A git guide which contains commands, explanations and examples for creating, updating and maintaining git repositories. <br/>
 Website: https://github.com/ <br/>
 Git Download: https://git-scm.com/downloads <br/>
-Github Desktop: https://desktop.github.com/ <br/>
+Github Desktop: https://desktop.github.com/ <br/> 
 
 ## Section 1: Creating a repository on Github
 
