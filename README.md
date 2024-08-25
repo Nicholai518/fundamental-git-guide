@@ -374,7 +374,8 @@ git branch -a <br/> <br/>
 ![alt text](https://itknowledgeexchange.techtarget.com/coffee-talk/files/2023/05/gf03.gif) 
 
 ## Section 9: Pull Requests
- <br/>  <br/>
+ **Your job / Project may require that you make a Pull Request before your changes can be merged into Main / Master**
+ *Explanation: A pull request (PR) is a feature in version control systems like Git that allows developers to propose merging changes from one branch of a repository into another. PRs are also known as merge requests.* <br/> <br/>
  
 ## Section 10: Viewing Status and changes to files
 
@@ -418,9 +419,10 @@ Git Flow: https://www.gitkraken.com/learn/git/git-flow  <br/> <br/>
 ## Practice exercises
 Learn Git Branching: https://learngitbranching.js.org/ <br/> <br/>
 
-TEMPLATE
-## 
+## TEMPLATE
 **Command:**  <br/>
 **Example:**  <br/>
 *Explanation:*   <br/>
-*Note:*  <br/>
+*Note:*  <br/> <br/> 
+
+
