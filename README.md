@@ -398,10 +398,11 @@ git branch -a <br/> <br/>
 ## Section 11: Extra helpful commands
 
 **Command: git –-version**  <br/>
-*Explanation: Shows a list of helpful git commands*  <br/> <br/>
+*Explanation: Shows the current version of git you have installed*  <br/> <br/>
+
 
 **Command: git –-help**  <br/>
-*Explanation: Shows the current version of git you have installed*  <br/> <br/>
+*Explanation: Shows a list of helpful git commands*  <br/> <br/>
 
 ## Section 11: Links
 
