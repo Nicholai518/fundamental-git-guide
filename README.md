@@ -10,10 +10,6 @@ Git Download: https://git-scm.com/downloads <br/>
 Github Desktop: https://desktop.github.com/ <br/> 
 
 ## Section 1: Creating a repository on Github
-
-## Picture for reference
-![alt text](https://cdn-media-1.freecodecamp.org/images/cxRrZUe-tW2Wkn0WUg-MsN1m1WesvGPlJT7V) 
-
 **Command: echo "# NAME_OF_YOUR_REPO" >> README.md** <br/>
 *Explanation:  Writes text "NAME_OF_YOUR_REPO" into the README.md file*  <br/>  <br/>
 
@@ -37,6 +33,8 @@ Github Desktop: https://desktop.github.com/ <br/>
 **Command: git push -u origin main** <br/>
 *Explanation:  Publish your local code changes to a remote repository, specifically the main branch* <br/> <br/>
 
+## Picture for reference
+![alt text](https://cdn-media-1.freecodecamp.org/images/cxRrZUe-tW2Wkn0WUg-MsN1m1WesvGPlJT7V) 
 
 ## Local / Remote Repository Visual Representation
 ![alt text](https://media.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvpxeexqyfvf4hw3zxtbn.png)
