@@ -1,7 +1,7 @@
 # fundamental-git-guide
 
 ## Motivation
-While working on a project, have you ever thought to yourself "What was that Git command again?". I believe Git is an essential part of being a Software Engineer so I wanted to create a guide to improve my understanding and help others.
+While working on a project, have you ever thought to yourself "What was that Git command again?". I believe Git is an essential part of being a Software Engineer so I wanted to create a guide to improve my understanding and help others. Use Ctrl + F to search the guide for your question or topic. (Ex: "How to unstage a file")
 
 ## General
 A git guide which contains commands, explanations and examples for creating, updating and maintaining git repositories. <br/>
