@@ -380,7 +380,7 @@ git branch -a <br/> <br/>
 ## Show the status of working directory & Staging area
 **Command: git status** <br/> <br/>
 *Explanation: Displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.*
-## Show the status of working directory & Staging area with short description</ins>
+## Show the status of working directory & Staging area with short description
 **Command: git status -s** <br/>
 *Explanation: -s is the “short status” flag* <br/> <br/>
 
