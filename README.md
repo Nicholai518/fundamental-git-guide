@@ -340,6 +340,12 @@ Or   <br/>
 **Example: git merge print-out-friend-names** <br/>
 *Explanation: Merges an existing branch into the branch you have checked out* <br/> <br/>
 
+## Change / update a branch name
+**Command: git branch -m old-name new-name** <br/>
+**Example: git branch -m print-out-hello-wrold print-out-hello-world** <br/>
+*Explanation: Switch to the master / main branch first. Then use this command to change / update a branch name if you have a typo or the changes you made no longer reflect the original name.* <br/>
+*Note: This should NOT remove or alter any of your code changes, only the branch name* <br/> <br/>
+
 ## List all local branches
 **Command: git branch** <br/>
 
